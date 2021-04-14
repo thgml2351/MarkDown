@@ -161,7 +161,6 @@ Click [here](https://www.google.com/)
 
 |--|--| 이 부분에 ':'콜론을 붙여 주면 정렬도 할 수 있다.
 
-<br>
 <h3>왼쪽 정렬</h3>
 
 | Header | Description |
