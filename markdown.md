@@ -259,7 +259,7 @@ console.log("your message");
 :+1: :sparkles: :camel: :tada:
 :pig: :metal: :octocat:
 
-<br><br>
+<br>
 
 ```
 :+1: :sparkles: :camel: :tada:
