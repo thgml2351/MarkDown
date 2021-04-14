@@ -234,3 +234,11 @@ console.log('your message')
 해당 코드에 랭귀지를 표현해주면(어떤 언어인지) 문법이 하이라이트가 된다.
 
 자바스크립트, 자바, 코틀린도 지원이 된다.
+
+<br><br><br>
+
+<h1>체크 박스</h1>
+```
+- [x] this is a complete item
+- [ ] this is an imcomplete item
+```
