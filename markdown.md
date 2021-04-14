@@ -157,10 +157,11 @@ Click [here](https://www.google.com/)
 
 밑에 이어서 동일하게 작성하면 테이블이 완성된다.
 
-<br><br><br><br>
+<br><br><br>
 
 |--|--| 이 부분에 ':'콜론을 붙여 주면 정렬도 할 수 있다.
 
+<br>
 <h3>왼쪽 정렬</h3>
 
 | Header | Description |
