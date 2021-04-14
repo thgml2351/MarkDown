@@ -231,6 +231,10 @@ console.log('your message')
 
 <br>
 
+```ts
+console.log("your message");
+```
+
 > ` ```ts console.log("your message"); ` ```
 
 해당 코드에 랭귀지를 표현해주면(어떤 언어인지) 문법이 하이라이트가 된다.
