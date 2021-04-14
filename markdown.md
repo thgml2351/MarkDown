@@ -252,3 +252,10 @@ console.log("your message");
 - [x] this is a complete item
 - [ ] this is an imcomplete item
 ```
+
+<br><br><br>
+
+<h1>아이콘</h1>
+GitHub supports emoji!
+:+1: :sparkles: :camel: :tada:
+:roqket: :metal: :octocat:
