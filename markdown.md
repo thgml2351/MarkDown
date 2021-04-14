@@ -19,7 +19,7 @@ Paragraph
 
 아무런 기호도 작성하지 않으면 일반 텍스트로 작성된다.
 
-<br><br>
+<br><br><br>
 
 <h1>라인</h1>
 
@@ -27,7 +27,7 @@ Paragraph
 
 언더스코어(\_) 세번을 입력하면 라인이 추가된다.
 
-<br><br>
+<br><br><br>
 
 <h1>Text attributes</h1>
 
@@ -41,7 +41,7 @@ This is the **bold** text and this is the _italic_ text and let's do ~~strikethr
 별 하나만 감싸 주게 되면 이탈릭으로 만들 수 있다.<br>
 그리고 물결 모양 두 개로 감싸주게 되면 strikethrough도 해볼 수 있다.
 
-<br><br>
+<br><br><br>
 
 <h1>Quote</h1>
 
@@ -49,7 +49,7 @@ This is the **bold** text and this is the _italic_ text and let's do ~~strikethr
 
 원하는 문장을 '>'를 통해 quote(인용구) 안으로 넣을 수 있다.
 
-<br><br>
+<br><br><br>
 
 <h1>Bullet list</h1>
 
@@ -81,7 +81,7 @@ other Fruits:
 
 ' - ' 를 이용해도 목록을 만들 수 있다.
 
-<br><br>
+<br><br><br>
 
 <h1>Numbered list</h1>
 
@@ -93,7 +93,7 @@ Numbers:
 
 숫자를 붙여서 숫자 목록을 만들 수 있다.
 
-<br><br>
+<br><br><br>
 
 <h1>Link</h1>
 클릭이 가능한 링크
@@ -107,7 +107,7 @@ Click [here](https://www.google.com/)
 
 대괄호 안에 원하시는 단어나 문장을 작성하고 소괄호 안에 원하는 링크를 작성하면 클릭이 가능하게 나타난다.
 
-<br><br>
+<br><br><br>
 
 <h1>Image</h1>
 
@@ -121,7 +121,7 @@ Click [here](https://www.google.com/)
 
 이미지 사이즈를 바꾸고 싶을 땐 HTMl 태그인 이미지 태그를 이용해서 width(너비)를 지정해주면 된다.
 
-<br><br>
+<br><br><br>
 
 <h1>Table</h1>
 
@@ -207,7 +207,7 @@ Click [here](https://www.google.com/)
 |:--:|:--:|
 ```
 
-<br><br>
+<br><br><br>
 
 <h1>Code</h1>
 
