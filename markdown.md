@@ -238,6 +238,10 @@ console.log('your message')
 <br><br><br>
 
 <h1>체크 박스</h1>
+
+- [x] this is a complete item
+- [ ] this is an imcomplete item
+
 ```
 - [x] this is a complete item
 - [ ] this is an imcomplete item
