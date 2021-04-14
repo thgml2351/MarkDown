@@ -211,6 +211,8 @@ Click [here](https://www.google.com/)
 
 <h1>Code</h1>
 
+To print message in the console, use `console.log('your message')` and ..
+
 ```
 To print message in the console, use `console.log('your message')` and ..
 ```
