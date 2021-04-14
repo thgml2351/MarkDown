@@ -33,6 +33,10 @@ Paragraph
 
 > This is the **bold** text and this is the _italic_ text and let's do ~~strikethrough~~.
 
+```
+This is the **bold** text and this is the _italic_ text and let's do ~~strikethrough~~.
+```
+
 원하는 단어에 별모양(\*\*)으로 감싸주면 볼드체가 되고<br>
 별 하나만 감싸 주게 되면 이탈릭으로 만들 수 있다.<br>
 그리고 물결 모양 두 개로 감싸주게 되면 strikethrough도 해볼 수 있다.
@@ -54,6 +58,12 @@ Fruits:
 - apple
 - banana
 
+```
+Fruits:
+* apple
+* banana
+```
+
 별 모양 하나만 앞에 달아주면 목록으로 변환된다.
 
 <br><br>
@@ -62,6 +72,12 @@ other Fruits:
 
 - apple
 - banana
+
+```
+other Fruits:
+- apple
+- banana
+```
 
 ' - ' 를 이용해도 목록을 만들 수 있다.
 
@@ -145,8 +161,6 @@ Click [here](https://www.google.com/)
 
 |--|--| 이 부분에 ':'콜론을 붙여 주면 정렬도 할 수 있다.
 
-<br><br>
-
 <h3>왼쪽 정렬</h3>
 
 | Header | Description |
@@ -203,7 +217,7 @@ To print message in the console, use `console.log('your message')` and ..
 
 문서 안에서 특정한 코드를 보여 주고 싶다면 `(백틱) 키를 이용해서 해당하는 코드를 감싸주면 인라인 형태로 포맷이 가능하다.
 
-<br><br><br>
+<br><br>
 
 ```
 
@@ -212,13 +226,10 @@ console.log('your message')
 ```
 
 다수의 코드가 있는 경우에는 `(백틱) 키를 세 번 누른 다음에 안에 코드를 작성하면 코드블럭이 만들어진다.
-<br><br><br>
 
-> ```ts
-> console.log("your message");
-> ```
+<br><br>
 
-<br>
+> ` ``ts console.log("your message"); ` ``
 
 해당 코드에 랭귀지를 표현해주면(어떤 언어인지) 문법이 하이라이트가 된다.
 
