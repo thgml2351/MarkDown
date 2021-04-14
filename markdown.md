@@ -11,7 +11,7 @@
 ###### Heading 6
 ```
 
-<br><br>
+<br>
 
 ```
 Paragraph
@@ -23,17 +23,17 @@ Paragraph
 
 <h1>라인</h1>
 
+---
+
 언더스코어(\_) 세번을 입력하면 라인이 추가된다.
 <br><br>
 
 <h1>Text attributes</h1>
 
-```
-This is the **bold** text and this is the _italic_ text and let's do ~~strikethrough~~.
-```
+> This is the **bold** text and this is the _italic_ text and let's do ~~strikethrough~~.
 
-원하는 단어에 별모양(\*\*)으로 감싸주면 볼드체가 되고
-별 하나만 감싸 주게 되면 이탈릭으로 만들 수 있다.
+원하는 단어에 별모양(\*\*)으로 감싸주면 볼드체가 되고<br>
+별 하나만 감싸 주게 되면 이탈릭으로 만들 수 있다.<br>
 그리고 물결 모양 두 개로 감싸주게 되면 strikethrough도 해볼 수 있다.
 <br><br>
 
@@ -46,32 +46,29 @@ This is the **bold** text and this is the _italic_ text and let's do ~~strikethr
 
 <h1>Bullet list</h1>
 
-```
 Fruits:
+
 - apple
 - banana
-```
 
 별 모양 하나만 앞에 달아주면 목록으로 변환된다.
 <br><br>
 
-```
 other Fruits:
+
 - apple
 - banana
-```
 
 ' - ' 를 이용해도 목록을 만들 수 있다.
 <br><br>
 
 <h1>Numbered list</h1>
 
-```
 Numbers:
+
 1.  first
 2.  second
 3.  third
-```
 
 숫자를 붙여서 숫자 목록을 만들 수 있다.
 <br><br>
@@ -83,8 +80,7 @@ Numbers:
 Click [here](https://www.google.com/)
 
 ```
-Click [here].(https://www.google.com/)<br>
-점은 무시하세요.
+Click [here](https://www.google.com/)
 ```
 
 대괄호 안에 원하시는 단어나 문장을 작성하고 소괄호 안에 원하는 링크를 작성하면 클릭이 가능하게 나타난다.
@@ -95,9 +91,7 @@ Click [here].(https://www.google.com/)<br>
 ![image description](https://en.pimg.jp/070/829/966/1/70829966.jpg)
 
 ```
- ![내용].(주소)
-
-점은 무시하세요.
+ ![내용](주소)
 ```
 
 느낌표 옆에 대괄호 안에 이미지에 대한 설명을 작성한 다음, 소괄호 안에 이미지 링크를 추가하면 이미지가 나온다.
@@ -113,10 +107,8 @@ Click [here].(https://www.google.com/)<br>
 <br>
 
 ```
-| .   |     |     | <br> |
+|     |     |     |      |
 | --- | --- | --- | ---- |
-
-점은 무시하세요.
 ```
 
 '|' 작대기 사이에 내용을 쓰고 밑에서 다시 작대기를 이렇게 사용하면 테이블로 변환된다.
@@ -131,13 +123,11 @@ Click [here].(https://www.google.com/)<br>
 <br>
 
 ```
-.| | | | |<br>
-| --- | --- | --- | --- |<br>
-| | |<br>
-| | |<br>
+| | | | |
+| --- | --- | --- | --- |
 | | |
-
-점은 무시하세요.
+| | |
+| | |
 ```
 
 밑에 이어서 동일하게 작성하면 테이블이 완성된다.
