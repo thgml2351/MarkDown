@@ -2,7 +2,8 @@
 
 총 6가지의 heading
 
-```# Heading 1
+```
+# Heading 1
 ## Heading 2
 ### Heading 3
 #### Heading 4
@@ -12,7 +13,9 @@
 
 <br><br>
 
-> Paragraph
+```
+Paragraph
+```
 
 아무런 기호도 작성하지 않으면 일반 텍스트로 작성된다.
 
@@ -25,7 +28,9 @@
 
 <h1>Text attributes</h1>
 
-> This is the **bold** text and this is the _italic_ text and let's do ~~strikethrough~~.
+```
+This is the **bold** text and this is the _italic_ text and let's do ~~strikethrough~~.
+```
 
 원하는 단어에 별모양(\*\*)으로 감싸주면 볼드체가 되고
 별 하나만 감싸 주게 되면 이탈릭으로 만들 수 있다.
@@ -41,29 +46,32 @@
 
 <h1>Bullet list</h1>
 
-> Fruits:
->
-> - apple
-> - banana
+```
+Fruits:
+- apple
+- banana
+```
 
 별 모양 하나만 앞에 달아주면 목록으로 변환된다.
 <br><br>
 
-> other Fruits:
->
-> - apple
-> - banana
+```
+other Fruits:
+- apple
+- banana
+```
 
 ' - ' 를 이용해도 목록을 만들 수 있다.
 <br><br>
 
 <h1>Numbered list</h1>
 
-> Numbers:
->
-> 1.  first
-> 2.  second
-> 3.  third
+```
+Numbers:
+1.  first
+2.  second
+3.  third
+```
 
 숫자를 붙여서 숫자 목록을 만들 수 있다.
 <br><br>
@@ -74,9 +82,10 @@
 
 Click [here](https://www.google.com/)
 
-> Click [here].(https://www.google.com/)<br>
->
-> 점은 무시하세요.
+```
+Click [here].(https://www.google.com/)<br>
+점은 무시하세요.
+```
 
 대괄호 안에 원하시는 단어나 문장을 작성하고 소괄호 안에 원하는 링크를 작성하면 클릭이 가능하게 나타난다.
 <br><br>
@@ -85,9 +94,11 @@ Click [here](https://www.google.com/)
 
 ![image description](https://en.pimg.jp/070/829/966/1/70829966.jpg)
 
-> ![내용].(주소)
->
-> 점은 무시하세요.
+```
+ ![내용].(주소)
+
+점은 무시하세요.
+```
 
 느낌표 옆에 대괄호 안에 이미지에 대한 설명을 작성한 다음, 소괄호 안에 이미지 링크를 추가하면 이미지가 나온다.
 
@@ -101,10 +112,12 @@ Click [here](https://www.google.com/)
 
 <br>
 
-> | .   |     |     | <br> |
-> | --- | --- | --- | ---- |
->
-> 점은 무시하세요.
+```
+| .   |     |     | <br> |
+| --- | --- | --- | ---- |
+
+점은 무시하세요.
+```
 
 '|' 작대기 사이에 내용을 쓰고 밑에서 다시 작대기를 이렇게 사용하면 테이블로 변환된다.
 <br><br><br>
@@ -117,13 +130,15 @@ Click [here](https://www.google.com/)
 
 <br>
 
-> .| | | | |<br>
-> | --- | --- | --- | --- |<br>
-> | | |<br>
-> | | |<br>
-> | | |
->
-> 점은 무시하세요.
+```
+.| | | | |<br>
+| --- | --- | --- | --- |<br>
+| | |<br>
+| | |<br>
+| | |
+
+점은 무시하세요.
+```
 
 밑에 이어서 동일하게 작성하면 테이블이 완성된다.
 <br><br><br><br>
@@ -141,7 +156,9 @@ Click [here](https://www.google.com/)
 
 <br>
 
-> |:--|:--|
+```
+|:--|:--|
+```
 
 <br><br>
 
@@ -155,7 +172,9 @@ Click [here](https://www.google.com/)
 
 <br>
 
-> |--:|--:|
+```
+|--:|--:|
+```
 
 <br><br>
 
@@ -169,13 +188,17 @@ Click [here](https://www.google.com/)
 
 <br>
 
-> |:--:|:--:|
+```
+|:--:|:--:|
+```
 
 <br><br>
 
 <h1>Code</h1>
 
-> To print message in the console, use `console.log('your message')` and ..
+```
+To print message in the console, use `console.log('your message')` and ..
+```
 
 문서 안에서 특정한 코드를 보여 주고 싶다면 `(백틱) 키를 이용해서 해당하는 코드를 감싸주면 인라인 형태로 포맷이 가능하다.
 <br><br><br>
@@ -193,10 +216,10 @@ console.log('your message')
 console.log("your message");
 ```
 
-> ``` ts console.log('your message') ` ``
-
 <br>
 
 해당 코드에 랭귀지를 표현해주면(어떤 언어인지) 문법이 하이라이트가 된다.
+
+> ``` ts console.log('your message') ` ``
 
 자바스크립트, 자바, 코틀린도 지원이 된다.
