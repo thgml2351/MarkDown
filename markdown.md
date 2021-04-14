@@ -257,11 +257,11 @@ console.log("your message");
 
 <h1>아이콘</h1>
 :+1: :sparkles: :camel: :tada:
-:pig: :metal: :octocat:
+:pig: :metal: :sunny:
 
 <br>
 
 ```
 :+1: :sparkles: :camel: :tada:
-:pig: :metal: :octocat:
+:pig: :metal: :sunny:
 ```
