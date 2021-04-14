@@ -217,7 +217,7 @@ To print message in the console, use `console.log('your message')` and ..
 
 문서 안에서 특정한 코드를 보여 주고 싶다면 `(백틱) 키를 이용해서 해당하는 코드를 감싸주면 인라인 형태로 포맷이 가능하다.
 
-<br><br>
+<br>
 
 ```
 
@@ -227,9 +227,9 @@ console.log('your message')
 
 다수의 코드가 있는 경우에는 `(백틱) 키를 세 번 누른 다음에 안에 코드를 작성하면 코드블럭이 만들어진다.
 
-<br><br>
+<br>
 
-> ` ``ts console.log("your message"); ` ``
+> ` ```ts console.log("your message"); ` ```
 
 해당 코드에 랭귀지를 표현해주면(어떤 언어인지) 문법이 하이라이트가 된다.
 
